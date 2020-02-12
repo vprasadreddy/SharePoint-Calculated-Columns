@@ -1,4 +1,5 @@
 # SharePoint-Calculated-Columns
+## CalculatedFormulaForFiscalQuarter
 =IF(ISBLANK([SubmittedDate]), "N/A", 
 IF(AND(YEAR([SubmittedDate])<=2019, MONTH([SubmittedDate])<4),CONCATENATE("Q1",YEAR([SubmittedDate])),
 IF(AND(YEAR([SubmittedDate])<=2019, MONTH([SubmittedDate])<7),CONCATENATE("Q2",YEAR([SubmittedDate])),
